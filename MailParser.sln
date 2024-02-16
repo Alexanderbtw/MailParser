@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34526.213
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailParser.Worker", "MailParser.Worker\MailParser.Worker.csproj", "{A12922DF-BB61-4DF5-B00E-92969B864C41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailParser.AppHost", "MailParser.AppHost\MailParser.AppHost.csproj", "{6186A7C0-5996-4B6A-81F3-39F15045FED0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailParser.ServiceDefaults", "MailParser.ServiceDefaults\MailParser.ServiceDefaults.csproj", "{E567370C-5696-405E-84CD-83836EB5C1F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A12922DF-BB61-4DF5-B00E-92969B864C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A12922DF-BB61-4DF5-B00E-92969B864C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A12922DF-BB61-4DF5-B00E-92969B864C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A12922DF-BB61-4DF5-B00E-92969B864C41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6186A7C0-5996-4B6A-81F3-39F15045FED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6186A7C0-5996-4B6A-81F3-39F15045FED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6186A7C0-5996-4B6A-81F3-39F15045FED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6186A7C0-5996-4B6A-81F3-39F15045FED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E567370C-5696-405E-84CD-83836EB5C1F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E567370C-5696-405E-84CD-83836EB5C1F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E567370C-5696-405E-84CD-83836EB5C1F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E567370C-5696-405E-84CD-83836EB5C1F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20DCAC57-8CF5-4CEB-B1DF-BF95AD8AFE7C}
+	EndGlobalSection
+EndGlobal
