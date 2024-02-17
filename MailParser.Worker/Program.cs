@@ -1,4 +1,4 @@
-using MailParser.Worker;
+using MailParser.EmailWorker;
 
 var builder = Host.CreateApplicationBuilder(args);
 
@@ -15,7 +15,7 @@ builder.Configuration
     .AddEnvironmentVariables();
 
 builder.AddServiceDefaults();
-builder.Services.AddHostedService<Worker>();
+builder.Services.AddHostedService<EmailWorker>();
 
 var host = builder.Build();
 host.Run();

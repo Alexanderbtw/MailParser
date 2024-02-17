@@ -5,9 +5,11 @@ VisualStudioVersion = 17.9.34526.213
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailParser.Worker", "MailParser.Worker\MailParser.Worker.csproj", "{A12922DF-BB61-4DF5-B00E-92969B864C41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailParser.AppHost", "MailParser.AppHost\MailParser.AppHost.csproj", "{6186A7C0-5996-4B6A-81F3-39F15045FED0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailParser.AppHost", "MailParser.AppHost\MailParser.AppHost.csproj", "{6186A7C0-5996-4B6A-81F3-39F15045FED0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailParser.ServiceDefaults", "MailParser.ServiceDefaults\MailParser.ServiceDefaults.csproj", "{E567370C-5696-405E-84CD-83836EB5C1F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailParser.Domain", "MailParser.Domain\MailParser.Domain.csproj", "{F7A54C0E-A117-4CEE-BD06-9E2D21C71184}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{E567370C-5696-405E-84CD-83836EB5C1F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E567370C-5696-405E-84CD-83836EB5C1F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E567370C-5696-405E-84CD-83836EB5C1F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7A54C0E-A117-4CEE-BD06-9E2D21C71184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A54C0E-A117-4CEE-BD06-9E2D21C71184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A54C0E-A117-4CEE-BD06-9E2D21C71184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A54C0E-A117-4CEE-BD06-9E2D21C71184}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

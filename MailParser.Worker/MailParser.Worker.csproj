@@ -8,11 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AngleSharp" Version="1.1.0" />
     <PackageReference Include="MailKit" Version="4.3.0" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MailParser.Domain\MailParser.Domain.csproj" />
     <ProjectReference Include="..\MailParser.ServiceDefaults\MailParser.ServiceDefaults.csproj" />
   </ItemGroup>
 </Project>
